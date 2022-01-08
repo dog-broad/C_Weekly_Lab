@@ -5,21 +5,23 @@ void main()
 {
  int choice, num1, num2;
  clrscr();
- printf("1.Addition \n2.Subtraction \n3.Multiplication \n4.Division\nChoose what to do: ");
+ printf("1.Addition \n2.Subtraction \n3.Multiplication \n4.Division \n5.Remainder \nChoose what to do: ");
  scanf("%d",&choice);
  printf("\nEnter the numbers to apply the operation on: ");
  scanf("%d%d",&num1,&num2);
  switch(choice)
  {
-   case 1: printf("\n%d + %d = %d",num1, num2, num1+num2);
+	 case 1: printf("\nAddition: %d + %d = %d",num1, num2, num1+num2);
 	   break;
-   case 2: printf("\n%d - %d = %d",num1, num2, num1-num2);
+	 case 2: printf("\nSubtraction: %d - %d = %d",num1, num2, num1-num2);
 	   break;
-   case 3: printf("\n%d * %d = %d",num1, num2, num1*num2);
+	 case 3: printf("\nMultiplication: %d * %d = %d",num1, num2, num1*num2);
 	   break;
-   case 4: printf("\n%d / %d = %d",num1, num2, num1/num2);
+	 case 4: printf("\nDivision: %d / %d = %d",num1, num2, num1/num2);
 	   break;
-   default: printf("\nInvalid Choice");
+	 case 5: printf("\nRemainder: %d % %d = %d",num1, num2, num1%num2);
+	   break;
+         default: printf("\nInvalid Choice");
 	    break;
  }
  getch();
