@@ -10,12 +10,12 @@ void main()
     
     printf("Enter the %d values: ", num);
     for(i=0; i<num; i++)
-        scanf("%d", arr[i]);
+        scanf("%d", &arr[i]);
     for(i=0; i<num; i++)
         sum = sum + arr[i];
     for(i=0; i<num; i++)
         printf("a[%d] = %d\n", i, arr[i]);
-        
+
     printf("Sum = %d", sum);
     getch();
 }
