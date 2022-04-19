@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "WEEK6A.C": "cpp"
+        "WEEK6A.C": "cpp",
+        "WEEK6B.C": "cpp"
     }
 }
