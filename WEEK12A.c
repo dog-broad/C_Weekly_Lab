@@ -18,14 +18,14 @@ void main()
     {
         printf("Error opening File!");
         getch();
-        ecit(0);
+        exit(0);
     }
 
-    ch = getc(f1);
+    ch = fgetc(f1);
     while(ch!=EOF)
     {
         putchar(ch);
-        ch = getc(f1);
+        ch = fgetc(f1);
     }
     fcloseall();
 
