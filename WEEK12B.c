@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 #include<conio.h>
-#include<string.h>
+#include<stdlib.h>
 
 void main()
 {
@@ -37,5 +37,5 @@ void main()
     printf("Copying Successful");
 
     getch();
-    
+
 }
