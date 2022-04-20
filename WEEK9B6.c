@@ -10,7 +10,7 @@ int main()
     int i, n;
     printf("Enter Sequence length: ");
     scanf("%d", &n);
-    for(i =0; i<n; i++, n--)
+    for(i = 0; n>0; i++, n--)
         printf("%4d", fib(n));
 
     return 0;
