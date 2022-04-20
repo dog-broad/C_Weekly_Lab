@@ -1,4 +1,4 @@
-//Diaply Contents of file
+//Display Contents of file
 
 #include<stdio.h>
 #include<conio.h>
